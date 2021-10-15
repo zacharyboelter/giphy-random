@@ -30,7 +30,7 @@ function App() {
       <Button randomgif={getGif} />
 
       {/* <GifDisplay gif={gif} /> */}
-
+      {/* when i add the initial. js here instead of <p> it breaks... */}
       {gif.url ? <GifDisplay gif={gif} /> : <p>Want a random gif?</p>}
     </div>
   );
